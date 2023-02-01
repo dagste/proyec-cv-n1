@@ -1,0 +1,150 @@
+/*ESTILOS GENERALES*/
+*{
+    margin: 1px;
+    padding: 1px;
+}
+
+body{
+    font-family: serif;
+}
+
+.contenedor{
+    width: 100%;
+    margin: 1px;
+}
+
+/* ESTILO DE ENCABEZADO */
+
+.header .top-header{
+    padding: 6px 0;
+    font-size: 12px;
+    border-bottom: 1px solid rgb(184, 179, 179);
+    background: white;
+}
+
+.header .top-header .contenedor .datos{
+    width: 12%;
+    float: left;   
+}
+
+.header .top-header .contenedor .datos ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.header .top-header .contenedor .datos ul li{
+    text-decoration: none;
+    color: maroon;
+    padding: 8px 0; 
+}
+
+.header .top-header .contenedor .foto-perfil{
+    float: right;
+}
+
+ .header .top-header .contenedor .foto-perfil img{
+    width: 200px; 
+    display: inline-block; 
+    border-radius: 100%;
+ }
+
+.header .top-header .contenedor .titulo {
+    width: auto;
+    margin: 1px 0;
+    text-align: center;
+}
+.titulo h1 {
+    text-decoration: solid;
+    color: maroon;
+    font-size: 40px;
+    display: inline-block;
+    padding: 30px;
+}
+.titulo h2{
+    font-size: 25px;
+    letter-spacing: 0px;
+    color: maroon;
+}
+
+ /*DISEÑO EXPERIENCIA LABORAL*/
+ .main{
+    background: antiquewhite;
+    padding: 20px 20px;
+
+ }
+ .main .arte-late{
+      float: left;
+ }
+   .main .arte-late{
+      background: #fafafa;
+      padding: 40px;
+      margin-bottom: 20px;
+      border: 1px solid gray;
+   }
+   #p {
+      text-decoration: solid;
+   }
+  
+   .main .arte-late img{
+      text-align: center;
+      margin-bottom: 10px;
+  
+   }
+   .main .arte-late img{
+      width: 100px;
+   }
+   .main .filtrados{
+      float: right;
+    
+ }
+   .main .filtrados{
+      background: #fafafa;
+      text-decoration: solid;
+      padding: 40px;
+      margin-bottom: 20px;
+      border: 1px solid gray;
+   }
+  
+   .main .filtrados img{
+      text-align: center;
+      margin-bottom: 10px;
+  
+   }
+   .main .filtrados img{
+      width: 90px;  
+   }
+ 
+ .main .datos-laborales {
+    overflow: hidden;
+    color: maroon;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+ }
+/*DISEÑO DE ESTUDIOS CURSADOS*/
+ .main .estudios{
+    overflow: hidden;
+    color: maroon;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+ }
+ 
+ /* DISEÑO DE FOOTER */
+ .footer {
+   background-color: white;
+   padding: 40px;
+   border: 1px solid grey;
+   text-align: center;
+   color: brown;
+   
+ }
+ #datos-contacto ul{
+    list-style: none;
+ }
+ 
+
+
+ 
